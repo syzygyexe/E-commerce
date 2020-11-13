@@ -6,6 +6,7 @@ import connectDB from "./config/db.js";
 
 import productRoutes from "./routes/productRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
+import OrderRoutes from "./routes/OrderRoutes.js";
 
 dotenv.config();
 
@@ -26,6 +27,8 @@ app.get("/", (req, res) => {
 app.use("/api/products", productRoutes);
 // Defining a path for our userRoutes
 app.use("/api/users", userRoutes);
+// Defining a path for our orderRoutes
+app.user("/api/orders", orderRoutes)
 
 // Imported middlewares
 app.use(notFound);
