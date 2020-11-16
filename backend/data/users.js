@@ -1,4 +1,4 @@
-// Initial users list
+// Initial users list.
 
 import bcrypt from "bcryptjs";
 
