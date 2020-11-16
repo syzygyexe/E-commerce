@@ -1,4 +1,4 @@
-// Initial products list
+// Initial products list.
 
 const products = [
   {
