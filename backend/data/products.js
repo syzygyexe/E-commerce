@@ -1,4 +1,4 @@
-// Initial products list.
+// Initial product list for testing.
 
 const products = [
   {
