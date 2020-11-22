@@ -37,6 +37,7 @@ app.use("/api/products", productRoutes);
 app.use("/api/users", userRoutes);
 // Defining a path for our orderRoutes
 app.use("/api/orders", orderRoutes);
+// Defining a path for our uploadRoutes
 app.use("/api/upload", uploadRoutes);
 
 // Connecting to the PayPal API
