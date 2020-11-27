@@ -1,3 +1,3 @@
-## Ecommerce
+## E-commerce
 
-Powered by the MERN stack.
+E-commerce web-site powered by the MERN stack.
