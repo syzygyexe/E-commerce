@@ -1,1 +1,1 @@
-This folder is being used in order to implement an image upload on the webiste. Namely, admin only new product's image upload//
+This folder is being used in order to implement an image upload on the webiste. Namely, admin only new product's image upload.
