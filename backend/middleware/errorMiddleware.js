@@ -5,7 +5,8 @@ const notFound = (req, res, next) => {
   next(error);
 };
 
-// custom error handler, which will be responding with json format, instead of initial HTML format. Also, it will be providing us with the stack trace during the production development.
+// custom error handler, which will be responding with json format, instead of initial HTML format.
+// Also, it will be providing us with the stack trace during the production development.
 const errorHandler = (err, req, res, next) => {
   const statusCode = res.statusCode === 200 ? 500 : res.statusCode;
   res.status(statusCode);
