@@ -6167,7 +6167,6 @@ a.close.disabled {
 .carousel-item-prev {
   display: block;
 }
-/*  */
 .carousel-item-next:not(.carousel-item-left),
 .active.carousel-item-right {
   -webkit-transform: translateX(100%);
