@@ -1,4 +1,4 @@
-// Initial user list for testing.
+// Initial user list
 
 import bcrypt from "bcryptjs";
 
