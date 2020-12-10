@@ -6,7 +6,7 @@ const Paginate = ({ pages, page, isAdmin = false, keyword = "" }) => {
   return (
     pages > 1 && (
       <Pagination>
-        {/* .keys() is takinn keys from the object */}
+        {/* .keys() is taking keys from the object */}
         {/* ...Arrray(4) === [0, 1, 2, 3] */}
         {[...Array(pages).keys()].map((x) => (
           <LinkContainer
