@@ -2,6 +2,12 @@
 
 E-commerce web-site powered by the MERN stack.
 
+## Learn More
+
+More info about the project can be found in the link below.
+https://alexander-borisov-portfolio.herokuapp.com/#projects
+
+
 ## Developer Mode Installation
 For the full functionality of the website, Node.js must be installed on the computer.
 The applications' back-end/front-end can be installed with the npm install command in the main root and inside of the frontend folder.
