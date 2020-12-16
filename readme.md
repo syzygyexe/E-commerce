@@ -26,7 +26,7 @@ Set .env files' NODE_ENV to developement mode.
 NODE_ENV = development
 ```
 
-## Set-up your MongoDB and PayPal Sandbox API
+## Set-Up Your MongoDB and PayPal Sandbox API
 Fill-in your Mongo URI inside of the .env file.
 <br>
 Fill-in your PayPal Sandbox Client ID.
@@ -43,7 +43,7 @@ npm run dev
 ```
 The application will run on the http://localhost:3000/ in development mode.
 
-## Upload initial DataBase
+## Upload Initial Database
 
 In order to upload initial database with test users and test products run the command below in the main root.
 
@@ -51,7 +51,7 @@ In order to upload initial database with test users and test products run the co
 npm run data:import
 ```
 
-## Client build set-up.
+## Client Build Set-Up.
 
 Set .env files' NODE_ENV to production mode.
 ```
@@ -66,7 +66,7 @@ cd frontend
 npm build
 ```
 
-## Client build launch
+## Client Build Launch
 In order to launch client build enter the command below in the main root.
 ```
 npm start
