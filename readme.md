@@ -31,7 +31,7 @@ PAYPAL_CLIENT_ID = ??????
 
 ## Learn more about PayPal Sandbox API
 
-https://developer.paypal.com/developer/notifications/
+https://developer.paypal.com/developer/
 
 ## Developer Mode Testing
 To launch an application in developer mode. The command below must be entered in the main root.
