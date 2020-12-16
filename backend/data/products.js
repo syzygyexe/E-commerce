@@ -1,4 +1,3 @@
-// Initial product data
 const products = [
   {
     name: "Alexa",
@@ -10,7 +9,7 @@ const products = [
     price: 89.99,
     countInStock: 12,
     rating: 4.5,
-    numReviews: 12,
+    numReviews: 0,
   },
   {
     name: "Beats",
@@ -22,7 +21,7 @@ const products = [
     price: 59.99,
     countInStock: 3,
     rating: 4.5,
-    numReviews: 4,
+    numReviews: 0,
   },
   {
     name: "Phone",
@@ -34,7 +33,7 @@ const products = [
     price: 39.99,
     countInStock: 9,
     rating: 4,
-    numReviews: 1,
+    numReviews: 0,
   },
   {
     name: "Ergotron",
@@ -46,7 +45,7 @@ const products = [
     price: 24.99,
     countInStock: 4,
     rating: 3,
-    numReviews: 2,
+    numReviews: 0,
   },
   {
     name: "GamePad",
@@ -58,7 +57,7 @@ const products = [
     price: 19.99,
     countInStock: 3,
     rating: 5,
-    numReviews: 4,
+    numReviews: 0,
   },
   {
     name: "Mouse",
@@ -70,7 +69,7 @@ const products = [
     price: 79.99,
     countInStock: 12,
     rating: 3.5,
-    numReviews: 2,
+    numReviews: 0,
   },
   {
     name: "Keyboard",
@@ -82,7 +81,7 @@ const products = [
     price: 189.99,
     countInStock: 11,
     rating: 5,
-    numReviews: 7,
+    numReviews: 0,
   },
   {
     name: "Lightning-HDMI",
@@ -94,7 +93,7 @@ const products = [
     price: 19.99,
     countInStock: 0,
     rating: 1,
-    numReviews: 1,
+    numReviews: 0,
   },
   {
     name: "Monitor",
@@ -106,7 +105,7 @@ const products = [
     price: 289.99,
     countInStock: 7,
     rating: 4,
-    numReviews: 8,
+    numReviews: 0,
   },
   {
     name: "Nvidia 3090",
@@ -118,7 +117,7 @@ const products = [
     price: 399.99,
     countInStock: 0,
     rating: 5,
-    numReviews: 12,
+    numReviews: 0,
   },
   {
     name: "Oculus",
@@ -130,7 +129,7 @@ const products = [
     price: 159.99,
     countInStock: 3,
     rating: 2.5,
-    numReviews: 3,
+    numReviews: 0,
   },
   {
     name: "PlayStation 5",
@@ -142,7 +141,7 @@ const products = [
     price: 249.99,
     countInStock: 0,
     rating: 5,
-    numReviews: 2,
+    numReviews: 0,
   },
   {
     name: "E-Scooter",
@@ -154,7 +153,7 @@ const products = [
     price: 99.99,
     countInStock: 14,
     rating: 2.5,
-    numReviews: 5,
+    numReviews: 0,
   },
   {
     name: "Tablet",
@@ -166,7 +165,7 @@ const products = [
     price: 169.99,
     countInStock: 12,
     rating: 1.5,
-    numReviews: 42,
+    numReviews: 0,
   },
   {
     name: "Wireless-charger",
@@ -178,8 +177,9 @@ const products = [
     price: 49.99,
     countInStock: 4,
     rating: 3,
-    numReviews: 3,
+    numReviews: 0,
   },
 ];
 
 export default products;
+
