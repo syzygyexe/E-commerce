@@ -55,7 +55,7 @@ Set .env files' NODE_ENV to production mode.
 NODE_ENV = production
 ```
 
-Enter the command below in the main root.
+In order to create optimized client build enter the command below in the main root.
 
 ```
 cd frontend
