@@ -56,3 +56,12 @@ h2 {
 .page-link {
   margin: 0.085rem;
 }
+
+@media only screen and (max-width: 1000px) {
+  .carousel img {
+    height: 250px;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 22.5%;
+  }
+}
