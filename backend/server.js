@@ -27,10 +27,6 @@ if (process.env.NODE_ENV === "development") {
 // In other words, authUser will allow us to access req.body.email and req.body.password.
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.send("API is running");
-});
-
 // Defining a path for our productRoutes
 app.use("/api/products", productRoutes);
 // Defining a path for our userRoutes
@@ -51,6 +47,19 @@ const __dirname = path.resolve();
 // /uploads folder is not being accessible by default in order to upload images.
 // Therefore, we need to make it a static folder, so that it can get loaded in the browser.
 app.use("/uploads", express.static(path.join(__dirname, "/uploads")));
+
+// ***PRODUCTION BUILD***
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "/frontend/build")));
+  app.get("*", (req, res) =>
+    res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"))
+  );
+} else {
+  // ***DEVELOPMENT BUILD***
+  app.get("/", (req, res) => {
+    res.send("API is running");
+  });
+}
 
 // Imported middlewares
 app.use(notFound);
