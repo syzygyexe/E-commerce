@@ -5,6 +5,7 @@ E-commerce web-site powered by the MERN stack.
 ## Learn More
 
 More info about the project can be found in the link below.
+<br>
 https://alexander-borisov-portfolio.herokuapp.com/#projects
 
 
