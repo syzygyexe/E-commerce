@@ -119,7 +119,7 @@ const ProductListScreen = ({ history, match }) => {
             <tbody>
               {/* Loop through the products which we got from the productList */}
               {products.map((product) => (
-                <tr key={product.id}>
+                <tr key={product._id}>
                   <td>{product._id}</td>
                   <td>{product.name}</td>
                   <td>${product.price}</td>
@@ -152,3 +152,4 @@ const ProductListScreen = ({ history, match }) => {
 };
 
 export default ProductListScreen;
+
