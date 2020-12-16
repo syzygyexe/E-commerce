@@ -47,6 +47,14 @@ npm run dev
 ```
 The application will run on the http://localhost:3000/ in development mode.
 
+## Upload initial DataBase
+
+In order to upload initial database with test users and test products run the command below in the main root.
+
+```
+npm run data:import
+```
+
 ## Client build set-up.
 
 Set .env files' NODE_ENV to production mode.
