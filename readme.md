@@ -19,6 +19,12 @@ npm install
 cd ..
 ```
 
+Set .env files' NODE_ENV to developement mode.
+
+```
+NODE_ENV = development
+```
+
 ## Set-up your MongoDB and PayPal Sandbox API
 Fill-in your Mongo URI inside of the .env file.
 <br>
