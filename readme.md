@@ -22,6 +22,7 @@ cd ..
 Set .env files' NODE_ENV to developement mode.
 
 ```
+./.env
 NODE_ENV = development
 ```
 
@@ -44,8 +45,30 @@ To launch an application in developer mode. The command below must be entered in
 ```bash
 npm run dev
 ```
-The application will run on the http://localhost:3000/
+The application will run on the http://localhost:3000/ in development mode.
 
+## Client build set-up.
+
+Set .env files' NODE_ENV to production mode.
+```
+./.env
+NODE_ENV = production
+```
+
+Enter the command below in the main root.
+
+```
+cd frontend
+npm build
+```
+
+## Client build launch
+In order to launch client build enter the command below in the main root.
+```
+npm start
+```
+
+The application will run on the http://localhost:5000/ in production build.
 
 ## NPM Vulnerabilities
 In the case of the occurrence of unexpected npm vulnerabilities, the command below needs to be entered.
