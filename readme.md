@@ -14,6 +14,7 @@ cd ..
 
 ## Set-up your MongoDB and PayPal Sandbox API
 Fill-in your Mongo URI inside of the .env file.
+<br>
 Fill-in your PayPal Sandbox Client ID.
 ```
 ./.env
