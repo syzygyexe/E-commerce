@@ -64,4 +64,14 @@ h2 {
     margin: 40px;
     border-radius: 22.5%;
   }
+
+  h1 {
+    font-size: 0.8rem;
+    padding: 1rem 0;
+  }
+
+  h2 {
+    font-size: 0.6rem;
+    padding: 0.5rem 0;
+  }
 }
