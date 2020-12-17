@@ -2,6 +2,12 @@
 
 E-commerce web-site powered by the MERN stack.
 
+## Try it yourself!
+
+Deployed version of the website can be tested in the link below.
+<br>
+https://alexander-borisov-mern-ecom.herokuapp.com/
+
 ## Learn More
 
 More info about the project can be found in the link below.
@@ -20,23 +26,22 @@ npm install
 cd ..
 ```
 
-Set .env files' NODE_ENV to developement mode.
+Set-up your .env file.
 
 ```
 ./.env
 NODE_ENV = development
+PORT = 5000
+MONGO_URI = ***YOUR_MONGO_URI***
+JWT_SECRET = abc123
+PAYPAL_CLIENT_ID = ***YOUR_PAYPAL_SANDBOX_CLIENT_ID***
 ```
+## Upload Initial Database
 
-## Set-Up Your MongoDB and PayPal Sandbox API
-
-Fill-in your Mongo URI inside of the .env file.
-<br>
-Fill-in your PayPal Sandbox Client ID.
+In order to upload initial database with test users and test products run the command below in the main root.
 
 ```
-./.env
-MONGO_URI = ??????
-PAYPAL_CLIENT_ID = ??????
+npm run data:import
 ```
 
 ## Developer Mode Testing
@@ -49,13 +54,6 @@ npm run dev
 
 The application will run on the http://localhost:3000/ in development mode.
 
-## Upload Initial Database
-
-In order to upload initial database with test users and test products run the command below in the main root.
-
-```
-npm run data:import
-```
 
 ## Client Build Set-Up.
 
