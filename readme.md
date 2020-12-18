@@ -33,7 +33,7 @@ Set-up your .env file.
 NODE_ENV = development
 PORT = 5000
 MONGO_URI = ***YOUR_MONGO_URI***
-JWT_SECRET = abc123
+JWT_SECRET = ***YOUR_JWT_SECRET***
 PAYPAL_CLIENT_ID = ***YOUR_PAYPAL_SANDBOX_CLIENT_ID***
 ```
 ## Upload Initial Database
